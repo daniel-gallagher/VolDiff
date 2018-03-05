@@ -159,7 +159,7 @@ session0_processes = ["wininit.exe", "services.exe", "svchost.exe", "lsm.exe", "
 session1_processes = ["winlogon.exe"]
 
 # VOLATILITY PROFILES ================================================================
-profiles = ["VistaSP0x86", "VistaSP0x64", "VistaSP1x86", "VistaSP1x64", "VistaSP2x86", "VistaSP2x64",
+profiles = ["Win7SP1x64_23418", "VistaSP0x86", "VistaSP0x64", "VistaSP1x86", "VistaSP1x64", "VistaSP2x86", "VistaSP2x64",
             "Win2003SP0x86", "Win2003SP1x86", "Win2003SP1x64", "Win2003SP2x86", "Win2003SP2x64",
             "Win2008SP1x86", "Win2008SP1x64", "Win2008SP2x86", "Win2008SP2x64", "Win2008R2SP0x64", "Win2008R2SP1x64",
             "Win2012R2x64", "Win2012x64",
@@ -167,7 +167,7 @@ profiles = ["VistaSP0x86", "VistaSP0x64", "VistaSP1x86", "VistaSP1x64", "VistaSP
             "Win8SP0x86", "Win8SP0x64", "Win8SP1x86", "Win8SP1x64",
             "WinXPSP2x86", "WinXPSP1x64", "WinXPSP2x64", "WinXPSP3x86"]
 
-preferred_profiles = ["Win7SP0x86", "Win7SP0x64", "Win7SP1x86", "Win7SP1x64"]
+preferred_profiles = ["Win7SP1x64_23418", "Win7SP0x86", "Win7SP0x64", "Win7SP1x86", "Win7SP1x64"]
 
 
 # PRINT VOLDIFF BANNER ================================================================
